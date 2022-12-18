@@ -6,6 +6,9 @@ import Navbar from "./Components/Navbar";
 import React from "react";
 import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
 
+import 'stream-chat-react/dist/css/v2/index.css';
+import { useClient } from './hooks/useClient'
+
 const App = () => {
   return (
     <>
